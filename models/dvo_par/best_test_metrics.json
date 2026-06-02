@@ -1,0 +1,7 @@
+{
+  "model": "models/keras_par_dvo_optuna_f32_du32_lu64_d18_lr246e6_b64/best_model.keras",
+  "epoch": 170,
+  "selection": "lowest_val_loss",
+  "test_loss": 0.3343910276889801,
+  "test_accuracy": 0.9345498085021973
+}

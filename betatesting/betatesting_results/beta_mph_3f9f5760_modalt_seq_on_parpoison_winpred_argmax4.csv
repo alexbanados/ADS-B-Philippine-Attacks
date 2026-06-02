@@ -1,0 +1,7 @@
+csv_path,window_index,start_row,end_row_exclusive,predicted_label,predicted_label_name,prob_authentic,prob_modified_altitude,prob_modified_speed,prob_modified_position
+/Users/alexbanados/Documents/ADSB/betatesting/betatesting_data/beta_mph_poison_par/poisalt_mph_3f9f5760.csv,0,0,128,0,authentic,0.952632486820221,0.011667056009173393,0.011324906721711159,0.024375595152378082
+/Users/alexbanados/Documents/ADSB/betatesting/betatesting_data/beta_mph_poison_par/poisalt_mph_3f9f5760.csv,1,16,144,0,authentic,0.9622376561164856,0.009228697046637535,0.007647017948329449,0.020886650308966637
+/Users/alexbanados/Documents/ADSB/betatesting/betatesting_data/beta_mph_poison_par/poisalt_mph_3f9f5760.csv,2,32,160,0,authentic,0.9716522693634033,0.008146191947162151,0.005305273458361626,0.014896251261234283
+/Users/alexbanados/Documents/ADSB/betatesting/betatesting_data/beta_mph_poison_par/poisalt_mph_3f9f5760.csv,3,48,176,0,authentic,0.9744065999984741,0.014496865682303905,0.00343300006352365,0.007663486059755087
+/Users/alexbanados/Documents/ADSB/betatesting/betatesting_data/beta_mph_poison_par/poisalt_mph_3f9f5760.csv,4,64,192,0,authentic,0.9749543070793152,0.014164736494421959,0.0022525067906826735,0.008628493174910545
+/Users/alexbanados/Documents/ADSB/betatesting/betatesting_data/beta_mph_poison_par/poisalt_mph_3f9f5760.csv,5,80,208,0,authentic,0.924812376499176,0.04075344279408455,0.010880223475396633,0.02355395443737507

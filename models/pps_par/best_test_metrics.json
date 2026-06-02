@@ -1,0 +1,7 @@
+{
+  "model": "models/keras_par_pps_balanced_f64_k5_bd1_s2_lu96_du64_d40_lr18e4_dil16_b128/best_model.keras",
+  "epoch": 60,
+  "selection": "lowest_val_loss",
+  "test_loss": 0.27820104360580444,
+  "test_accuracy": 0.9251188635826111
+}

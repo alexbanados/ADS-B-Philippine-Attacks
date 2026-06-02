@@ -1,0 +1,13 @@
+csv_path,window_index,start_row,end_row_exclusive,predicted_label,predicted_label_name,prob_authentic,prob_modified_altitude,prob_modified_speed,prob_modified_position
+/Users/alexbanados/Documents/ADSB/betatesting/betatesting_data/beta_ceb_poison_seq/poispos_ceb_3f4dcb98.csv,0,0,128,0,authentic,0.8573079109191895,0.06082015484571457,0.042874082922935486,0.0389978252351284
+/Users/alexbanados/Documents/ADSB/betatesting/betatesting_data/beta_ceb_poison_seq/poispos_ceb_3f4dcb98.csv,1,16,144,0,authentic,0.7828040719032288,0.07731509953737259,0.08207444846630096,0.057806480675935745
+/Users/alexbanados/Documents/ADSB/betatesting/betatesting_data/beta_ceb_poison_seq/poispos_ceb_3f4dcb98.csv,2,32,160,0,authentic,0.8836171627044678,0.04500522464513779,0.04305073618888855,0.02832694724202156
+/Users/alexbanados/Documents/ADSB/betatesting/betatesting_data/beta_ceb_poison_seq/poispos_ceb_3f4dcb98.csv,3,48,176,0,authentic,0.8215087056159973,0.07695335149765015,0.06218371167778969,0.03935425356030464
+/Users/alexbanados/Documents/ADSB/betatesting/betatesting_data/beta_ceb_poison_seq/poispos_ceb_3f4dcb98.csv,4,64,192,0,authentic,0.8021333813667297,0.09922565519809723,0.056949272751808167,0.041691768914461136
+/Users/alexbanados/Documents/ADSB/betatesting/betatesting_data/beta_ceb_poison_seq/poispos_ceb_3f4dcb98.csv,5,80,208,0,authentic,0.7696804404258728,0.11950008571147919,0.06470303237438202,0.0461164265871048
+/Users/alexbanados/Documents/ADSB/betatesting/betatesting_data/beta_ceb_poison_seq/poispos_ceb_3f4dcb98.csv,6,96,224,0,authentic,0.7745968699455261,0.11962778121232986,0.044980112463235855,0.060795340687036514
+/Users/alexbanados/Documents/ADSB/betatesting/betatesting_data/beta_ceb_poison_seq/poispos_ceb_3f4dcb98.csv,7,112,240,0,authentic,0.83683842420578,0.09006084501743317,0.03072473220527172,0.04237600788474083
+/Users/alexbanados/Documents/ADSB/betatesting/betatesting_data/beta_ceb_poison_seq/poispos_ceb_3f4dcb98.csv,8,128,256,0,authentic,0.9070722460746765,0.049474410712718964,0.018554599955677986,0.024898746982216835
+/Users/alexbanados/Documents/ADSB/betatesting/betatesting_data/beta_ceb_poison_seq/poispos_ceb_3f4dcb98.csv,9,144,272,0,authentic,0.9832093715667725,0.0090553043410182,0.002871326170861721,0.004863877315074205
+/Users/alexbanados/Documents/ADSB/betatesting/betatesting_data/beta_ceb_poison_seq/poispos_ceb_3f4dcb98.csv,10,160,288,0,authentic,0.9868953227996826,0.007255289703607559,0.0032230510842055082,0.002626412780955434
+/Users/alexbanados/Documents/ADSB/betatesting/betatesting_data/beta_ceb_poison_seq/poispos_ceb_3f4dcb98.csv,11,176,304,0,authentic,0.9440672397613525,0.02858651801943779,0.017409121617674828,0.00993714202195406

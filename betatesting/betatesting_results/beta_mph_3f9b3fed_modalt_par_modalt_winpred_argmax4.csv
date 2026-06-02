@@ -1,0 +1,8 @@
+csv_path,window_index,start_row,end_row_exclusive,predicted_label,predicted_label_name,prob_authentic,prob_modified_altitude,prob_modified_speed,prob_modified_position
+/Users/alexbanados/Documents/ADSB/betatesting/betatesting_data/beta_mph_ready/mphalt/modalt_mph_3f9b3fed.csv,0,0,128,1,modified_altitude,0.006409584544599056,0.9933514595031738,6.449550710385665e-05,0.0001744726614560932
+/Users/alexbanados/Documents/ADSB/betatesting/betatesting_data/beta_mph_ready/mphalt/modalt_mph_3f9b3fed.csv,1,16,144,1,modified_altitude,0.0017000443767756224,0.998283863067627,1.9488657017063815e-06,1.4175509022607002e-05
+/Users/alexbanados/Documents/ADSB/betatesting/betatesting_data/beta_mph_ready/mphalt/modalt_mph_3f9b3fed.csv,2,32,160,1,modified_altitude,0.001792242517694831,0.9982008934020996,1.473286602049484e-06,5.344255441741552e-06
+/Users/alexbanados/Documents/ADSB/betatesting/betatesting_data/beta_mph_ready/mphalt/modalt_mph_3f9b3fed.csv,3,48,176,1,modified_altitude,0.0017441785894334316,0.9982499480247498,1.5446206589331268e-06,4.339148745202692e-06
+/Users/alexbanados/Documents/ADSB/betatesting/betatesting_data/beta_mph_ready/mphalt/modalt_mph_3f9b3fed.csv,4,64,192,1,modified_altitude,0.0031687908340245485,0.9968196153640747,8.371568583243061e-06,3.111710384473554e-06
+/Users/alexbanados/Documents/ADSB/betatesting/betatesting_data/beta_mph_ready/mphalt/modalt_mph_3f9b3fed.csv,5,80,208,1,modified_altitude,0.005673260428011417,0.9943075776100159,1.4686862414237112e-05,4.567854830384022e-06
+/Users/alexbanados/Documents/ADSB/betatesting/betatesting_data/beta_mph_ready/mphalt/modalt_mph_3f9b3fed.csv,6,96,224,1,modified_altitude,0.004928990267217159,0.9950469732284546,1.2129286915296689e-05,1.199050348077435e-05

@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SSL08 ADS-B (demo only)</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <div class="workspace">
+        <h1>SSL08 ADS-B (demo only)</h1>
+
+        <nav class="steps">
+          <span data-step-label="upload">Upload</span>
+          <span data-step-label="preprocess">Preprocess</span>
+          <span data-step-label="attack">Attack</span>
+          <span data-step-label="poison">Poison</span>
+          <span data-step-label="results">Results</span>
+        </nav>
+
+        <section id="page-upload" class="page active">
+          <h2>Upload CSV</h2>
+          <form id="upload-form">
+            <input id="csv-file" type="file" name="csv_file" accept=".csv" required />
+            <button type="submit">Upload CSV</button>
+          </form>
+          <div id="state" class="state">No file uploaded.</div>
+        </section>
+
+        <section id="page-preprocess" class="page">
+          <h2>Preprocess</h2>
+          <button id="run-preprocess">Run All Preprocessing</button>
+          <div id="preprocess-report" class="report hidden"></div>
+        </section>
+
+        <section id="page-attack" class="page">
+          <h2>Attack</h2>
+          <fieldset>
+            <legend>Do you want to generate an attack?</legend>
+            <label class="radio-row">
+              <input type="radio" name="want-attack" value="no" checked />
+              No, use authentic only
+            </label>
+            <label class="radio-row">
+              <input type="radio" name="want-attack" value="yes" />
+              Yes, generate an attack
+            </label>
+          </fieldset>
+
+          <div id="attack-options" class="options hidden">
+            <label>
+              Attack type
+              <select id="attack-type">
+                <option value="modalt">Modified Altitude</option>
+                <option value="modspd">Modified Speed</option>
+                <option value="modpos">Modified Position</option>
+              </select>
+            </label>
+            <label class="slider-control">
+              Attack start: <span id="attack-start-value">50% (bin 1000)</span>
+              <input id="attack-start" type="range" min="1" max="95" step="1" value="50" />
+              <span class="checkbox-row">
+                <input id="attack-start-random" type="checkbox" />
+                Random start
+              </span>
+              <small>Allowed: 1% to 95% of 2000 bins.</small>
+            </label>
+            <label class="slider-control">
+              Attack duration: <span id="attack-duration-value">10% (200 bins)</span>
+              <input id="attack-duration" type="range" min="5" max="25" step="1" value="10" />
+              <span class="checkbox-row">
+                <input id="attack-duration-random" type="checkbox" />
+                Random duration
+              </span>
+              <small>Allowed: 5% to 25% of 2000 bins.</small>
+            </label>
+            <label>
+              Attack envelope
+              <select id="attack-envelope">
+                <option value="random">Random</option>
+                <option value="hann">Hann</option>
+                <option value="asymmetric_hann">Asymmetric Hann</option>
+                <option value="beta">Beta</option>
+                <option value="raised_cosine">Raised Cosine</option>
+                <option value="random_spline">Random Spline</option>
+              </select>
+            </label>
+          </div>
+
+          <div class="button-row">
+            <button id="attack-continue">Regenerate</button>
+          </div>
+          <div id="attack-report" class="report hidden"></div>
+          <div id="poison-question" class="report hidden">
+            <h3>Do you also want to try to make a poisoned version?</h3>
+            <button id="go-poison">Yes, go to poison</button>
+            <button id="skip-poison">No, go to results</button>
+          </div>
+        </section>
+
+        <section id="page-poison" class="page">
+          <h2>Poison</h2>
+          <label>
+            Poison generator
+          <select id="poison-generator">
+              <option value="par">Parallel Model</option>
+              <option value="seq">Sequential Model</option>
+          </select>
+          </label>
+          <div class="button-row">
+            <button id="generate-poison">Generate Poison</button>
+            <button id="back-to-attack" class="secondary">Back to Attack</button>
+          </div>
+          <div id="poison-report" class="report hidden"></div>
+        </section>
+
+        <section id="page-results" class="page">
+          <h2>Results</h2>
+          <button id="run-results">Run Evaluation</button>
+          <button id="reset-workflow" class="secondary">Reset</button>
+          <div id="results-report" class="results"></div>
+        </section>
+      </div>
+
+      <aside class="log-panel">
+        <h2>Log</h2>
+        <pre id="log"></pre>
+      </aside>
+    </main>
+
+    <script src="/app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,7 @@
+{
+  "model": "models/keras_seq_mph_balanced_t16_f96_k2_bd1_s1_lu64_du32_d20_lr584e6_b128/best_model.keras",
+  "epoch": 79,
+  "selection": "lowest_val_loss",
+  "test_loss": 0.1703295260667801,
+  "test_accuracy": 0.9577387571334839
+}

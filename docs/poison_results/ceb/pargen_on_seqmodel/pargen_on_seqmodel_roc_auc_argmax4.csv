@@ -1,0 +1,5 @@
+label,class_name,auc,positive_count,negative_count,note
+0,authentic,0.5886607880958942,191,494,
+1,modified_altitude,0.9975620301203373,158,527,
+2,modified_speed,0.9856372276210454,188,497,
+3,modified_position,0.9996225275554884,148,537,

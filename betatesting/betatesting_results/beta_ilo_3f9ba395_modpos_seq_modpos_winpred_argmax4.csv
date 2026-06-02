@@ -1,0 +1,14 @@
+csv_path,window_index,start_row,end_row_exclusive,predicted_label,predicted_label_name,prob_authentic,prob_modified_altitude,prob_modified_speed,prob_modified_position
+/Users/alexbanados/Documents/ADSB/betatesting/betatesting_data/beta_ilo_ready/ilopos/modpos_ilo_3f9ba395.csv,0,0,128,0,authentic,0.9883708357810974,0.00486798258498311,0.0038555986247956753,0.0029055525083094835
+/Users/alexbanados/Documents/ADSB/betatesting/betatesting_data/beta_ilo_ready/ilopos/modpos_ilo_3f9ba395.csv,1,16,144,0,authentic,0.967640221118927,0.012803828343749046,0.010178210213780403,0.009377679787576199
+/Users/alexbanados/Documents/ADSB/betatesting/betatesting_data/beta_ilo_ready/ilopos/modpos_ilo_3f9ba395.csv,2,32,160,0,authentic,0.7858953475952148,0.11152473837137222,0.05328340083360672,0.049296434968709946
+/Users/alexbanados/Documents/ADSB/betatesting/betatesting_data/beta_ilo_ready/ilopos/modpos_ilo_3f9ba395.csv,3,48,176,0,authentic,0.887462317943573,0.04478231817483902,0.027510935440659523,0.0402444563806057
+/Users/alexbanados/Documents/ADSB/betatesting/betatesting_data/beta_ilo_ready/ilopos/modpos_ilo_3f9ba395.csv,4,64,192,0,authentic,0.8816311955451965,0.04308191314339638,0.027753492817282677,0.04753338545560837
+/Users/alexbanados/Documents/ADSB/betatesting/betatesting_data/beta_ilo_ready/ilopos/modpos_ilo_3f9ba395.csv,5,80,208,0,authentic,0.347318172454834,0.28655803203582764,0.3455371856689453,0.020586566999554634
+/Users/alexbanados/Documents/ADSB/betatesting/betatesting_data/beta_ilo_ready/ilopos/modpos_ilo_3f9ba395.csv,6,96,224,0,authentic,0.7551429867744446,0.11692284792661667,0.07138367742300034,0.05655047670006752
+/Users/alexbanados/Documents/ADSB/betatesting/betatesting_data/beta_ilo_ready/ilopos/modpos_ilo_3f9ba395.csv,7,112,240,0,authentic,0.7692844867706299,0.10713283717632294,0.07349130511283875,0.05009141191840172
+/Users/alexbanados/Documents/ADSB/betatesting/betatesting_data/beta_ilo_ready/ilopos/modpos_ilo_3f9ba395.csv,8,128,256,0,authentic,0.9226550459861755,0.028977278620004654,0.021328486502170563,0.027039173990488052
+/Users/alexbanados/Documents/ADSB/betatesting/betatesting_data/beta_ilo_ready/ilopos/modpos_ilo_3f9ba395.csv,9,144,272,0,authentic,0.8514854311943054,0.06645175814628601,0.044285375624895096,0.037777431309223175
+/Users/alexbanados/Documents/ADSB/betatesting/betatesting_data/beta_ilo_ready/ilopos/modpos_ilo_3f9ba395.csv,10,160,288,0,authentic,0.9923110604286194,0.002448031911626458,0.0013050382258370519,0.003935842774808407
+/Users/alexbanados/Documents/ADSB/betatesting/betatesting_data/beta_ilo_ready/ilopos/modpos_ilo_3f9ba395.csv,11,176,304,0,authentic,0.9993170499801636,0.00018908227502834052,6.212621519807726e-05,0.000431787280831486
+/Users/alexbanados/Documents/ADSB/betatesting/betatesting_data/beta_ilo_ready/ilopos/modpos_ilo_3f9ba395.csv,12,192,320,0,authentic,0.9969094395637512,0.001511402428150177,0.0004588840820360929,0.0011202642926946282

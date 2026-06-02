@@ -1,0 +1,7 @@
+{
+  "model": "models/keras_partcnlstm_ceb_tf_smooth_nocw_lr1e4_b128_p80_f32_u32_d20_maxpool/best_model.keras",
+  "epoch": 396,
+  "selection": "lowest_val_loss",
+  "test_loss": 0.3387400507926941,
+  "test_accuracy": 0.9127447009086609
+}

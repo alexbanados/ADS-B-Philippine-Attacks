@@ -1,0 +1,8 @@
+,precision,recall,f1-score,support
+authentic,0.0,0.0,0.0,1.0
+modified_altitude,1.0,1.0,1.0,1.0
+modified_speed,0.5,1.0,0.6666666666666666,1.0
+modified_position,1.0,1.0,1.0,1.0
+accuracy,0.75,0.75,0.75,0.75
+macro avg,0.625,0.75,0.6666666666666666,4.0
+weighted avg,0.625,0.75,0.6666666666666666,4.0

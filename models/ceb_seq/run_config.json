@@ -1,0 +1,73 @@
+{
+  "args": {
+    "data_folder": "data_ceb_seq",
+    "output_folder": "models/keras_seqtcnlstm_ceb_tf_smooth_nocw_lr1e4_b128_p80_f32_u32_d20_maxpool",
+    "keras_backend": "tensorflow",
+    "epochs": 1000,
+    "batch_size": 128,
+    "filters": 32,
+    "kernel_size": 3,
+    "block_depth": 2,
+    "dilations": [
+      1,
+      2,
+      4,
+      8,
+      16
+    ],
+    "stacks": 1,
+    "lstm_units": 32,
+    "dense_units": 64,
+    "dropout": 0.2,
+    "learning_rate": 0.0001,
+    "patience": 80,
+    "restore_best_weights": false,
+    "no_class_weights": true,
+    "seed": 42
+  },
+  "feature_columns": [
+    "sequence_index",
+    "t_elapsed_sec",
+    "dt",
+    "t_norm",
+    "latitude",
+    "longitude",
+    "altitude_meters",
+    "speed_kmh",
+    "verticalSpeed_ms",
+    "heading",
+    "x_wrt0",
+    "y_wrt0",
+    "delta_altitude",
+    "delta_speed",
+    "delta_heading",
+    "turn_rate",
+    "acceleration",
+    "distance_per_timestep",
+    "route_progress"
+  ],
+  "label_names": {
+    "0": "authentic",
+    "1": "modified_altitude",
+    "2": "modified_speed",
+    "3": "modified_position"
+  },
+  "class_weights": null,
+  "shapes": {
+    "X_train": [
+      51856,
+      128,
+      19
+    ],
+    "X_val": [
+      10788,
+      128,
+      19
+    ],
+    "X_test": [
+      10624,
+      128,
+      19
+    ]
+  }
+}

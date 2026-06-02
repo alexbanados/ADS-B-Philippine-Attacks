@@ -1,0 +1,37 @@
+delta_altitude = current altitude - previous altitude
+
+delta_speed = current speed - previous speed
+
+delta_heading = df["delta_heading"] = (
+    (df["heading"].diff() + 180) % 360 - 180
+).fillna(0)
+    //this shall keep heading change between: -180° to +180°
+
+dt = current timestamp - previous timestamp
+    //avoid division by zero df["dt_safe"] = df["dt"].replace(0, pd.NA)
+
+turn_rate = heading change per second = delta_heading / dt [degrees/second] = 
+          = df["turn_rate"] = (df["delta_heading"] / df["dt_safe"]).fillna(0)
+
+acceleration = speed change per second
+
+distance_per_timestep = This is the ground distance between the previous position and current position.;
+                        Use the Haversine formula.;
+                        Then compute distance per timestep:
+
+route_progress : (0.0 = start of trimmed flight, 1.0 = end of trimmed flight)
+
+            df["cumulative_distance"] = df["distance_per_timestep"].cumsum()
+
+            total_distance = df["cumulative_distance"].iloc[-1]
+
+            if total_distance > 0:
+                df["route_progress"] = df["cumulative_distance"] / total_distance
+            else:
+                df["route_progress"] = 0
+
+Raw latitude and longitude were retained as positional information, but they were not used directly 
+to determine attack intensity. Since latitude and longitude naturally vary over the route, 
+their raw standard deviation mainly reflects route distance rather than abnormal positional variation. 
+Therefore, position-based attacks were defined in meter-scale offsets using derived spatial features 
+such as distance per timestep, cumulative distance, and route progress.

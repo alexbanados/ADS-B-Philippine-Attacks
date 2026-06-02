@@ -1,0 +1,5 @@
+,authentic,modified_altitude,modified_speed,modified_position
+authentic,6,0,0,0
+modified_altitude,1,5,0,0
+modified_speed,0,0,6,0
+modified_position,1,0,0,5

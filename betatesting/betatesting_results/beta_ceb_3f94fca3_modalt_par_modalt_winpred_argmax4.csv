@@ -1,0 +1,14 @@
+csv_path,window_index,start_row,end_row_exclusive,predicted_label,predicted_label_name,prob_authentic,prob_modified_altitude,prob_modified_speed,prob_modified_position
+/Users/alexbanados/Documents/ADSB/betatesting/betatesting_data/beta_ceb_ready/cebalt/modalt_ceb_3f94fca3.csv,0,0,128,1,modified_altitude,1.039180177694728e-21,0.999883770942688,0.00011626396735664457,1.1783556769229264e-11
+/Users/alexbanados/Documents/ADSB/betatesting/betatesting_data/beta_ceb_ready/cebalt/modalt_ceb_3f94fca3.csv,1,16,144,1,modified_altitude,1.9227710831306783e-36,1.0,1.180307370937661e-12,2.742571998446626e-22
+/Users/alexbanados/Documents/ADSB/betatesting/betatesting_data/beta_ceb_ready/cebalt/modalt_ceb_3f94fca3.csv,2,32,160,1,modified_altitude,2.082925767120132e-35,1.0,1.8797008220772238e-12,4.685943838886307e-22
+/Users/alexbanados/Documents/ADSB/betatesting/betatesting_data/beta_ceb_ready/cebalt/modalt_ceb_3f94fca3.csv,3,48,176,1,modified_altitude,4.4455626535086463e-35,1.0,2.462577450984549e-12,9.272870361820251e-22
+/Users/alexbanados/Documents/ADSB/betatesting/betatesting_data/beta_ceb_ready/cebalt/modalt_ceb_3f94fca3.csv,4,64,192,1,modified_altitude,6.493324035178033e-35,1.0,2.845036055701411e-12,8.934521987336952e-22
+/Users/alexbanados/Documents/ADSB/betatesting/betatesting_data/beta_ceb_ready/cebalt/modalt_ceb_3f94fca3.csv,5,80,208,1,modified_altitude,1.1782316225796466e-34,1.0,3.9963570647172375e-12,1.3370008421049594e-21
+/Users/alexbanados/Documents/ADSB/betatesting/betatesting_data/beta_ceb_ready/cebalt/modalt_ceb_3f94fca3.csv,6,96,224,1,modified_altitude,4.64363523093494e-34,1.0,7.45873328378277e-12,6.465785697197885e-21
+/Users/alexbanados/Documents/ADSB/betatesting/betatesting_data/beta_ceb_ready/cebalt/modalt_ceb_3f94fca3.csv,7,112,240,1,modified_altitude,1.7985300503161086e-33,1.0,1.1020981870168978e-11,2.0441116045174227e-20
+/Users/alexbanados/Documents/ADSB/betatesting/betatesting_data/beta_ceb_ready/cebalt/modalt_ceb_3f94fca3.csv,8,128,256,1,modified_altitude,3.221948861353954e-21,0.9998654127120972,0.00013451105041895062,7.330841267361166e-09
+/Users/alexbanados/Documents/ADSB/betatesting/betatesting_data/beta_ceb_ready/cebalt/modalt_ceb_3f94fca3.csv,9,144,272,0,authentic,0.9820576310157776,0.006923737470060587,0.004510712344199419,0.006507845129817724
+/Users/alexbanados/Documents/ADSB/betatesting/betatesting_data/beta_ceb_ready/cebalt/modalt_ceb_3f94fca3.csv,10,160,288,0,authentic,0.9883925914764404,0.005452558398246765,0.0021480012219399214,0.0040066963993012905
+/Users/alexbanados/Documents/ADSB/betatesting/betatesting_data/beta_ceb_ready/cebalt/modalt_ceb_3f94fca3.csv,11,176,304,0,authentic,0.9415555596351624,0.02562619373202324,0.01971440576016903,0.013103782199323177
+/Users/alexbanados/Documents/ADSB/betatesting/betatesting_data/beta_ceb_ready/cebalt/modalt_ceb_3f94fca3.csv,12,192,320,0,authentic,0.9719041585922241,0.013461541384458542,0.008671078830957413,0.005963203497231007

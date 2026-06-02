@@ -1,0 +1,8 @@
+csv_path,window_index,start_row,end_row_exclusive,predicted_label,predicted_label_name,prob_authentic,prob_modified_altitude,prob_modified_speed,prob_modified_position
+/Users/alexbanados/Documents/ADSB/betatesting/betatesting_data/beta_mph_ready/mphauth/auth_mph_3f9b2814.csv,0,0,128,0,authentic,0.9944103360176086,0.0008434103801846504,0.0003264490806031972,0.00441974401473999
+/Users/alexbanados/Documents/ADSB/betatesting/betatesting_data/beta_mph_ready/mphauth/auth_mph_3f9b2814.csv,1,16,144,0,authentic,0.973649799823761,0.009660045616328716,0.006912584416568279,0.009777601808309555
+/Users/alexbanados/Documents/ADSB/betatesting/betatesting_data/beta_mph_ready/mphauth/auth_mph_3f9b2814.csv,2,32,160,0,authentic,0.9939353466033936,0.0009099094895645976,7.405060750897974e-05,0.0050806826911866665
+/Users/alexbanados/Documents/ADSB/betatesting/betatesting_data/beta_mph_ready/mphauth/auth_mph_3f9b2814.csv,3,48,176,0,authentic,0.9818524122238159,0.0017391189467161894,0.0001377187727484852,0.016270797699689865
+/Users/alexbanados/Documents/ADSB/betatesting/betatesting_data/beta_mph_ready/mphauth/auth_mph_3f9b2814.csv,4,64,192,0,authentic,0.9690834283828735,0.0020663675386458635,0.0002303374494658783,0.028619863092899323
+/Users/alexbanados/Documents/ADSB/betatesting/betatesting_data/beta_mph_ready/mphauth/auth_mph_3f9b2814.csv,5,80,208,0,authentic,0.567750871181488,0.13169874250888824,0.04393106326460838,0.2566192150115967
+/Users/alexbanados/Documents/ADSB/betatesting/betatesting_data/beta_mph_ready/mphauth/auth_mph_3f9b2814.csv,6,96,224,1,modified_altitude,0.4421274662017822,0.5079829096794128,0.02560150809586048,0.024288151413202286

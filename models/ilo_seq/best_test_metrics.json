@@ -1,0 +1,7 @@
+{
+  "model": "models/keras_seq_ilo_balanced_t13_du64_d35_lr8e4_b64/best_model.keras",
+  "epoch": 139,
+  "selection": "lowest_val_loss",
+  "test_loss": 0.3178935647010803,
+  "test_accuracy": 0.9293806552886963
+}

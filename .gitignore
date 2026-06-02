@@ -1,0 +1,14 @@
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
+.venv_tf/
+archive/
+archived_models/
+fuzzy_experiment/
+betatesting_gui/artifacts/*
+!betatesting_gui/artifacts/.gitignore
+
+# Dataset is hosted externally
+dataset/*
+!dataset/README.md

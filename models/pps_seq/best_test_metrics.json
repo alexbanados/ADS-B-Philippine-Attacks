@@ -1,0 +1,7 @@
+{
+  "model": "models/keras_seq_pps_balanced_t5_f64_k3_bd1_s2_lu128_du64_d20_lr629e6_b64/best_model.keras",
+  "epoch": 36,
+  "selection": "lowest_val_loss",
+  "test_loss": 0.23653975129127502,
+  "test_accuracy": 0.9354199767112732
+}

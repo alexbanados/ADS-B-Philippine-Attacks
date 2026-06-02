@@ -1,0 +1,6 @@
+scope,label,class_name,tp,fn,fp,tn,support,predicted_positive,fnr,fpr
+class,0,authentic,1,0,0,1,1,1,0.0,0.0
+class,1,modified_altitude,0,0,0,2,0,0,,0.0
+class,2,modified_speed,0,0,0,2,0,0,,0.0
+class,3,modified_position,1,0,0,1,1,1,0.0,0.0
+macro_avg,,macro_avg,,,,,2,2,0.0,0.0

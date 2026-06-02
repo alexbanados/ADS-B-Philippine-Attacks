@@ -1,0 +1,16 @@
+csv_path,window_index,start_row,end_row_exclusive,predicted_label,predicted_label_name,prob_authentic,prob_modified_altitude,prob_modified_speed,prob_modified_position
+/Users/alexbanados/Documents/ADSB/betatesting/betatesting_data/beta_pps_poison_par/poispos_pps_3f9b915d.csv,0,0,128,0,authentic,0.9819323420524597,0.010226930491626263,0.004613328259438276,0.003227441804483533
+/Users/alexbanados/Documents/ADSB/betatesting/betatesting_data/beta_pps_poison_par/poispos_pps_3f9b915d.csv,1,16,144,0,authentic,0.9765822291374207,0.010645756497979164,0.006106133572757244,0.006665821187198162
+/Users/alexbanados/Documents/ADSB/betatesting/betatesting_data/beta_pps_poison_par/poispos_pps_3f9b915d.csv,2,32,160,0,authentic,0.9623940587043762,0.017912941053509712,0.010374628938734531,0.009318413212895393
+/Users/alexbanados/Documents/ADSB/betatesting/betatesting_data/beta_pps_poison_par/poispos_pps_3f9b915d.csv,3,48,176,3,modified_position,0.0003232202143408358,2.00657632376533e-05,4.736260962090455e-05,0.9996094107627869
+/Users/alexbanados/Documents/ADSB/betatesting/betatesting_data/beta_pps_poison_par/poispos_pps_3f9b915d.csv,4,64,192,3,modified_position,7.64356578031311e-09,4.3183531750479176e-10,9.331531103384805e-10,1.0
+/Users/alexbanados/Documents/ADSB/betatesting/betatesting_data/beta_pps_poison_par/poispos_pps_3f9b915d.csv,5,80,208,3,modified_position,1.2159780737874826e-08,7.571360205460564e-10,1.471627486537841e-09,1.0
+/Users/alexbanados/Documents/ADSB/betatesting/betatesting_data/beta_pps_poison_par/poispos_pps_3f9b915d.csv,6,96,224,3,modified_position,1.5173295508930096e-08,5.225397337049742e-10,1.3412488897301955e-09,1.0
+/Users/alexbanados/Documents/ADSB/betatesting/betatesting_data/beta_pps_poison_par/poispos_pps_3f9b915d.csv,7,112,240,3,modified_position,1.7201566393509893e-08,6.897774018632674e-10,2.0704842285113045e-09,1.0
+/Users/alexbanados/Documents/ADSB/betatesting/betatesting_data/beta_pps_poison_par/poispos_pps_3f9b915d.csv,8,128,256,3,modified_position,4.50486190572974e-08,2.3147139760482105e-09,5.020647897424624e-09,1.0
+/Users/alexbanados/Documents/ADSB/betatesting/betatesting_data/beta_pps_poison_par/poispos_pps_3f9b915d.csv,9,144,272,3,modified_position,6.271618246955768e-08,2.258360831675077e-09,5.8782232414955615e-09,0.9999998807907104
+/Users/alexbanados/Documents/ADSB/betatesting/betatesting_data/beta_pps_poison_par/poispos_pps_3f9b915d.csv,10,160,288,3,modified_position,1.2840354202126036e-07,8.088488101520852e-09,9.494027786161041e-09,0.9999998807907104
+/Users/alexbanados/Documents/ADSB/betatesting/betatesting_data/beta_pps_poison_par/poispos_pps_3f9b915d.csv,11,176,304,0,authentic,0.8899319171905518,0.020303307101130486,0.016077298671007156,0.07368744909763336
+/Users/alexbanados/Documents/ADSB/betatesting/betatesting_data/beta_pps_poison_par/poispos_pps_3f9b915d.csv,12,192,320,0,authentic,0.9377307295799255,0.012491288594901562,0.007940919138491154,0.041837066411972046
+/Users/alexbanados/Documents/ADSB/betatesting/betatesting_data/beta_pps_poison_par/poispos_pps_3f9b915d.csv,13,208,336,0,authentic,0.9150595664978027,0.014579909853637218,0.013975217938423157,0.05638531967997551
+/Users/alexbanados/Documents/ADSB/betatesting/betatesting_data/beta_pps_poison_par/poispos_pps_3f9b915d.csv,14,224,352,0,authentic,0.940014123916626,0.01995711401104927,0.01603909581899643,0.023989614099264145

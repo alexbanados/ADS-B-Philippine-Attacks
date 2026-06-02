@@ -1,0 +1,72 @@
+{
+  "args": {
+    "data_folder": "data_ilo_seq",
+    "output_folder": "models/keras_par_ilo_balanced_t16_f16_k3_bd2_s2_lu64_du64_d25_lr403e6_b64",
+    "keras_backend": "tensorflow",
+    "epochs": 500,
+    "batch_size": 64,
+    "filters": 16,
+    "kernel_size": 3,
+    "block_depth": 2,
+    "dilations": [
+      1,
+      2,
+      4,
+      8
+    ],
+    "stacks": 2,
+    "lstm_units": 64,
+    "dense_units": 64,
+    "dropout": 0.25,
+    "learning_rate": 0.0004029232271297965,
+    "patience": 50,
+    "restore_best_weights": true,
+    "no_class_weights": true,
+    "seed": 42
+  },
+  "feature_columns": [
+    "sequence_index",
+    "t_elapsed_sec",
+    "dt",
+    "t_norm",
+    "latitude",
+    "longitude",
+    "altitude_meters",
+    "speed_kmh",
+    "verticalSpeed_ms",
+    "heading",
+    "x_wrt0",
+    "y_wrt0",
+    "delta_altitude",
+    "delta_speed",
+    "delta_heading",
+    "turn_rate",
+    "acceleration",
+    "distance_per_timestep",
+    "route_progress"
+  ],
+  "label_names": {
+    "0": "authentic",
+    "1": "modified_altitude",
+    "2": "modified_speed",
+    "3": "modified_position"
+  },
+  "class_weights": null,
+  "shapes": {
+    "X_train": [
+      37072,
+      128,
+      19
+    ],
+    "X_val": [
+      7844,
+      128,
+      19
+    ],
+    "X_test": [
+      7944,
+      128,
+      19
+    ]
+  }
+}
