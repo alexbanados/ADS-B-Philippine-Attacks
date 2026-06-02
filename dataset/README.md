@@ -4,7 +4,7 @@ The dataset files are not included in this GitHub repository because of file siz
 
 Download the dataset here:
 
-PASTE_YOUR_GOOGLE_DRIVE_OR_HARVARD_DATAVERSE_LINK_HERE
+https://drive.google.com/drive/folders/12O9h7DJH7Mgpym_wsZfsSaA92jrQbZrP?usp=sharing
 
 After downloading, place the dataset contents in this folder:
 
