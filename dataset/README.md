@@ -10,3 +10,12 @@ After downloading, place the dataset contents in this folder:
 
 ```text
 <your_project_folder>/dataset/
+
+
+To download CSV files from flightradar24.com, refer to:
+
+LuisSevillano, “flightradar24-to-csv: Tiny tool to parse flightradar24 data to csv and geojson,” https://github.com/LuisSevillano/flightradar24-to-csv
+
+and
+
+https://www.youtube.com/watch?v=8HmZG8u3OgQ
