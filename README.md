@@ -1,6 +1,6 @@
-# SSL08-ADSB
+# ADS-B-Philippine-Attacks
 
-SSL08-ADSB is an ADS-B flight-trajectory project for preprocessing route data, generating attack and poison datasets, training/evaluating Keras models, and running the beta-testing GUI.
+ADS-B-Philippine-Attacks is an ADS-B flight-trajectory project for preprocessing route data, generating attack and poison datasets, training/evaluating Keras models, and running the beta-testing GUI.
 
 ## How To Use: GUI
 
