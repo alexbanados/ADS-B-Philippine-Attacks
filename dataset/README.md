@@ -8,7 +8,7 @@ Download the dataset here:
 
 (ZIP) https://drive.google.com/file/d/1zjEJ7IDcTX53UtLCd1EwAFbWAf8wCVav/view?usp=sharing
 
-HOW TO USE:
+##HOW TO USE:
 After downloading, place the dataset contents in this folder:
 
 ```text
@@ -18,7 +18,7 @@ After downloading, place the dataset contents in this folder:
 Use "dataset" as the folder name. Non-capitalized, no spaces, etc.
 
 
-HOW TO GET OWN DATA:
+##HOW TO GET OWN DATA:
 To download CSV files from flightradar24.com, refer to:
 
 LuisSevillano, “flightradar24-to-csv: Tiny tool to parse flightradar24 data to csv and geojson,” 
