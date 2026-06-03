@@ -7,7 +7,7 @@ Download the dataset here:
 1. (UNZIPPED) https://drive.google.com/drive/folders/13IKvMoEvO3qgusxT8xpaRvXcHoSL7obX?usp=sharing
 2. (ZIP) https://drive.google.com/file/d/1zjEJ7IDcTX53UtLCd1EwAFbWAf8wCVav/view?usp=sharing
 
-These links contain the SAME dataset in different formats/file hosting sites.
+These links contain the SAME dataset in different formats/file hosting sites. You may use any.
 
 
 ## HOW TO USE:
