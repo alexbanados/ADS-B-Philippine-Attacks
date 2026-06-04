@@ -9,7 +9,7 @@ Download the dataset here:
 3. (KAGGLE) https://www.kaggle.com/datasets/alexbaados/ads-b-flight-data-of-philippine-domestic-routes
 4. (ZENODO) https://zenodo.org/records/20534917
 5. (HARVARD DATAVERSE) https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/68SXYK
-6. (MENDELEY) https://data.mendeley.com/drafts/tjh279d4f7
+6. (MENDELEY) https://data.mendeley.com/datasets/tjh279d4f7/2
 
 These links contain the SAME dataset in different formats/file hosting sites. You may use any.
 
